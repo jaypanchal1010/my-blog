@@ -1,1 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Jay's Blog</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                Jay's Blog
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-heading">
+                WELCOME TO MY BLOG
+            </p>
+
+            <h1>
+                Ideas, Stories & Knowledge
+            </h1>
+
+            <p>
+                Explore articles about technology, programming,
+                travel, lifestyle and much more.
+            </p>
+
+            <a href="#blogs" class="btn">
+                Read My Blogs
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Blog Section -->
+    <section id="blogs" class="blogs">
+
+        <div class="section-title">
+            <p>MY ARTICLES</p>
+            <h2>Latest Blogs</h2>
+        </div>
+
+
+        <div class="blog-container">
+
+            <!-- Blog 1 -->
+            <article class="blog-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80"
+                    alt="Programming">
+
+                <div class="blog-content">
+
+                    <span class="category">
+                        Technology
+                    </span>
+
+                    <h3>
+                        How to Start Learning Programming
+                    </h3>
+
+                    <p>
+                        Programming is one of the most useful skills
+                        you can learn today. Here are some simple steps
+                        to get started.
+                    </p>
+
+                    <button onclick="readBlog('Programming')">
+                        Read More →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- Blog 2 -->
+            <article class="blog-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1521292270410-a8c4d716d518?auto=format&fit=crop&w=800&q=80"
+                    alt="Travel">
+
+                <div class="blog-content">
+
+                    <span class="category">
+                        Travel
+                    </span>
+
+                    <h3>
+                        My Travel Experiences
+                    </h3>
+
+                    <p>
+                        Traveling gives us the opportunity to explore
+                        new places, cultures, people and experiences.
+                    </p>
+
+                    <button onclick="readBlog('Travel')">
+                        Read More →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- Blog 3 -->
+            <article class="blog-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=800&q=80"
+                    alt="Productivity">
+
+                <div class="blog-content">
+
+                    <span class="category">
+                        Lifestyle
+                    </span>
+
+                    <h3>
+                        How to Become More Productive
+                    </h3>
+
+                    <p>
+                        Small changes in your daily routine can help
+                        you manage your time and improve productivity.
+                    </p>
+
+                    <button onclick="readBlog('Productivity')">
+                        Read More →
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+
+        <div>
+
+            <p class="small-heading">
+                ABOUT ME
+            </p>
+
+            <h2>
+                Hi, I'm Jay 👋
+            </h2>
+
+            <p>
+                Welcome to my personal blog. I write about technology,
+                programming, travel, learning and interesting things
+                I discover.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+
+        <h2>
+            Get In Touch
+        </h2>
+
+        <p>
+            Have an idea or want to connect?
+        </p>
+
+        <a
+            href="mailto:your-email@example.com"
+            class="btn">
+            Contact Me
+        </a>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Jay's Blog. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
